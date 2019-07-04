@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/attract_nav"
+        android:title="Attraction"
+        android:icon="@drawable/ic_attraction_24dp"
+        />
+
+    <item android:id="@+id/hangout_nav"
+        android:title="Hangout"
+        android:icon="@drawable/ic_beach_hangout_24dp"
+        />
+
+    <item android:id="@+id/hotel_nav"
+        android:title="Hotel"
+        android:icon="@drawable/ic_hotel_green_24dp"
+        />
+
+    <item android:id="@+id/museum_nav"
+        android:title="museum"
+        android:icon="@drawable/ic_all_inclusive_black_24dp"
+        />
+</menu>

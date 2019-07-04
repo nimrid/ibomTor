@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">ibomTor</string>
+    <string name="hangout">Hangout</string>
+    <string name="museum">Museum</string>
+    <string name="attraction_center">Attraction center</string>
+    <string name="hotels">Hotel</string>
+
+    <string name="hotel1">Le Meridien Ibom Golf Resort</string>
+    <string name="hotel2">Monty Suites</string>
+    <string name="hotel3">Pinnacle Premium Suites</string>
+    <string name="hotel4">Tevoli Hotels Restaurant</string>
+    <string name="hotel5">Dasty Hotels Ltd</string>
+    <string name="hotel6">EEMJM Hotel &amp; suites</string>
+    <string name="hotel7">Four point Sheraton Hotel</string>
+
+    <string name="attration1">Ibeno Beach</string>
+    <string name="attraction2">Godswill Akpabio International Stadium</string>
+    <string name="attraction3">Ibom e-Library</string>
+    <string name="attraction4">Ibom Specialist Hospital</string>
+    <string name="attraction5">Bridge of No Return</string>
+    <string name="attraction6">The Amalgamation House</string>
+    <string name="attraction7">Presbyterian Church</string>
+    <string name="attraction8">Mbo Forest Game Reserve</string>
+    <string name="attraction9">Slave Masters lodge, Okopedi</string>
+    <string name="attraction10">Mary Slessor house Tomb</string>
+    <string name="attraction11">Royal Niger Boat Yard</string>
+    <string name="attraction12">Ibom Deep Sea Port</string>
+    <string name="attraction13">Ibom International Worship Centre</string>
+
+    <string name="Museum">House of Tara</string>
+    <string name="museum1">Lord Luggard\'s Residence</string>
+    <string name="museum2">Ibiobio Museum and State Park</string>
+    <string name="museum3">National Museum of Colonial History</string>
+    <string name="museum4">Oron Museum</string>
+
+    <string name="hangout1">Raffia City Plaza</string>
+    <string name="hangout2">Ibom Tropicana Entertainment Center</string>
+    <string name="hangout3">Ibom Plaza</string>
+    <string name="hangout4">Vista Restaurant</string>
+    <string name="hangout5">Silverbird Cinema</string>
+    <string name="hangout6">The Playground</string>
+    <string name="hangout7">Discovery Park</string>
+    <string name="hangout8">Silver Lounge</string>
+    <string name="hangout9">Unity Park</string>
+
+    <string name="location1">Nwaniba Road, Uyo</string>
+    <string name="location2">Ikot Ekpene</string>
+    <string name="location3">Ibeno</string>
+    <string name="location4">Ikot Abasi</string>
+    <string name="location5">Oron</string>
+    <string name="location6">Mbo</string>
+    <string name="location7">Itu</string>
+    <string name="location8">Uyo</string>
+    <string name="location9">Eket</string>
+
+    <string name="le_meridien_desc">
+        Situated on a hilltop with spectacular views over the rain forest
+    stretching to the mountains of cameroon, Le Meridien is a 5 star hotel and resort that comes with 130 rooms, 26 suites,
+        7 chalets, 3 restaurants and bars, conference hall, 11 meeting rooms, business centre, fitness club, salon and massage,
+        pool and jacuzzi, Marina club, tennis and squash courts, indoor games, night clubs, heliports.
+    </string>
+    <string name="monty">
+        This hotel has 40 tastefully furnished rooms with jacuzzi bath, restaurant and bar,
+    conference hall, gym, swimming pool with sit out bar, internet access. The hotel serves local and continental
+    dishes
+    </string>
+    <string name="Pinnacle">
+        Pinnacle has 10 exquisitely furnished rooms with swimming pool, garden bar and restaurant, indoor and outdoor
+        catering services
+    </string>
+    <string name="Tevoli">
+        Tevoli hotels include executive suites and standard rooms all tastefully furnished serve with friendly and courteous
+        staffs. It provides car hire service, 24 hours laundry and dry cleaning services, internet services
+    </string>
+    <string name="Dasty">
+        This is a 24 room hotel fully equipped with recreational facilities such as swimming pool, gym, tennis court.
+        It also has conference facilities, a business center, restaurant and bar
+    </string>
+    <string name="EEM">
+        The hotel has 70 tastefully furnished rooms with a gym, 2 restaurants, swimming pool with bar, outdoor games, internet access, conference facilities
+    </string>
+    <string name="ibeno">
+        It stretches from ibeno to James town. This beach is one of the many tourist attractions in Akwa Ibom.
+        The soothing feel of its breeze coupled with the sound of the roaring waters makes it a place to visit.
+        This beautiful sand beach provides recreational facilities with excellent opportunities for water sport. If
+        you are not keen on doing anything hectic such as surfing, ypou can have a picnic with friends or play beach volleyball
+    </string>
+    <string name="unity">
+        Unity Park also known as Cenotaph is a popular attraction in Uyo, Akwa Ibom State.
+        Located at Udo Udoma Avenue close to Akwa Ibom State House of Assembly Complex, the public park doubles as a cenotaph for fallen heroes. The Armed Forces Remembrance Day, which is an annual event is held at the Unity Park, Uyo.
+        You can visit the Unity Park for free during your stay in Uyo. The park is open for social events and recreational activities. The must suitable day of the week to visit for maximum fun is Saturday. Join other tourists and locals for activities ranging from sports to parties
+    </string>
+    <string name="Stadium">
+        The Godswill International stadium has become one of the highest tourist attractions in the state.
+        It has also earned international recognitions and hosted quiet a number of International match in the state
+    </string>
+    <string name="Sea_port">
+        The ibom deep sea port is one of the Top 10 Most Attractive Tourist Centers in Akwa Ibom State. Though the IDSP is not yet fully furnished, it promise to be be one of the outstanding tourist attractions in Akwa Ibom State. 
+        The Ibom Deep Sea Port will operate some tourist activities like travel, etc
+    </string>
+    <string name="worship">
+        The Ibom International worship centre has a lovely ariel view and happens to be on of the most Attractive Tourist Centers in Akwa Ibom State, with over a 8,500 setting capacity.
+    </string>
+    <string name="Sheraton">
+        Equipped with the best and most sophisticated facilities in the world,
+        Ibom Four Point Sheraton Hotel promises to be the next highest revenue generator to the state, and is presently one of the Most Attractive Tourist Centers in Akwa Ibom State.
+    </string>
+    <string name="amalgamation">
+        The Amalgamation House in Uyo is a one storey cottage which holds an historic importance as it was where Lord Lugard proclaimed the amalgamation of the Northern and Southern protectorates of Nigeria in 1914.
+        It is an historical relic of the colonial era and a major point of interest in Uyo, Akwa Ibom State.
+    </string>
+    <string name="presbyterian">
+        The Presbyterian Church Uyo is frequented by tourists from around world.
+        The church was built by “Mary Slessor”, the famous missionary who helped stop the killing of twins in the region. The Presybterian Church has become a museum where people come to see the tomb and learn learn about the life and history of Mary Slessor. 
+        The church is a tourist attraction and place of interest open to the public for free.
+    </string>
+    <string name="colonial_museum">
+        The National Museum of Colonial History which was established 1989 is located at Wellington Bassey Way, P.M.B 1109, Uyo, Akwa Ibom within the Governor’s Office Complex.
+        The museum boasts of an education centre, a research library and a museum shop.
+        National Museum of Colonial History features ethnographic pieces, antiques, artefacts, carvings archival and personal items, several publications and the history of Akwa Ibom State creation.
+        The museum also features a spectacular view of boats on the creeks from its shaded waterfront garden.
+    </string>
+    <string name="discovery_park">
+        An idea place to enjoy the perfect blend of a great scenery, fine music and tasty local delicacies, visit the Discovery Park in Uyo to enjoy a relaxing and exciting evening with friends and locals. An ideal place to meet people and make friends, discovery park is features restaurants and stalls that offer delicious local dishes ranging from suya to goat meat peppersoup.
+        The park is usually open daily from 8am to 11pm but opens 1pm and closes 11pm on sundays.
+    </string>
+    <string name="Tara">
+        House of Tara, Uyo is one of the most established beauty salons in Uyo. It is located at no 4, Lane Traffic Light 264 Oron Road. A visit to House of Tara might not mean much to everyone. However, if you are in the beauty industry, then, House of Tara is a place that is worth visiting.
+    </string>
+    <string name="raffia_city">
+        Raffia city plaza is one of the biggest tourist attractions in Ikot Ekpene. This plaza is not just a place to get affordable stuff, it is also a place where children can have fun while the adults do the shopping. Raffia city plaza features a football viewing centre and a place to see movies.
+    </string>
+    <string name="vista">
+        Are you in Akwa Ibom and in search of a place to have your local dish in a world-class restaurant? If yes, then, you should pay Vista restaurant a visit. In this restaurant, you can have a well-cooked meal while you enjoy the beauty that Akwa Ibom is known for.
+    </string>
+    <string name="Bridge_no_return">
+        The bridge of no return was given its name by the people of Ikot Abasi. 
+        This bridge brings to mind the pains of slave trade and was usually the last point of contact between slaves and their lands before they were put on big ships and sent to work on farms in America.
+        Although the bridge of no return is very infamous among the people of Ikot Abasi, it is a major tourist destination in Akwa Ibom.
+    </string>
+    <string name="ibiobio_museum">
+        Ibiobio Museum and state park is the no 1 place to visit if you are interested in knowing more about the Ibiobio people and their way of life. This museum contains artifacts that will help you understand the history of the Ibiobio people.
+        If you are not cut out for museums, you can also have a picnic in the gardens surrounding this museum.
+    </string>
+    <string name="playground">
+        Just as its name states, the playground is one of the most famous relaxation spots in Akwa Ibom. This spot welcomes its visitors with the sweet aroma of grilled meat and the sounds of soft music. If you are a vegetarian, then,
+        this is not a place you should find yourself because you could just give up on some of your vegetarian beliefs.
+    </string>
+    <string name="oron_museum">
+        Oron museum is endowed with a lot of artworks, traditional instruments, and masquerade costumes. This museum will help your knowledge of Efik history come alive.
+        If you are a fan of arts, next time you are in Akwa Ibom, make it a duty to visit Oron museum.
+    </string>
+    <string name="cinema">
+        In search of a place to view the latest movies, then, you should find your way to Silverbird Cinema, Uyo.
+        This cinema occupies a section of the Ibom Tropicana entertainment center and is located at Udoudom Avenue. At Silverbird cinema, Uyo, you do not only get to watch the latest movies with a bowl of popcorn, you also get to meet with fun and interesting people.
+    </string>
+    <string name="e_library">
+        If you have never been to a digital library, then a visit to Ibom e-library is non-negotiable. Ibom e-library is situated in Uyo and is the first and biggest digital library in the whole of West Africa. This e-library is definitely not a place for leisure. However, it could be the extra spice to your visit to Akwa-Ibom.
+        It was built by Godswill Akpabio and commissioned by Goodluck Jonathan.
+    </string>
+    <string name="tropicana">
+        Created in the image of Sun City of South Africa and the famous Disneyland in Orlando, Florida, USA, the Ibom Tropicana Entertainment Centre is a marvel.  The center, which is a modern leisure and business resort, stuns every visitor.
+        There is usually a crowd at this location and most times, you are bound to make an acquaintance while strolling through it myriad corridors. Meeting someone new is a good way to create fun memories of any place. All you need is your purse and possibly a selfie stick for picture-perfect moments.
+    </string>
+    <string name="plaza">
+        The monument which symbolizes the unity of the people of Akwa Ibom State, stands in the centre of the roundabout. It is a delightful art-piece, skirted with dazzling selection of uniquely beautiful flowers. 
+        The plaza has an open theatre, doubled-rolled water fountain with in the plaza, and shopping centre
+    </string>
+    <string name="slessor_house">
+        The monuments are spots where Mary Slessor was buried and the house she lived before her death situated around Ikot Oron/Itu village in the state.
+    </string>
+    <string name="silver_lounge">
+        Beautifully designed to give customers a great environment to dine, lounge and party,
+        this is a premium and high-end restaurant and lounge.
+    </string>
+    <string name="luggard_house">
+        Not very many people are aware of the existence of this building. Lord Luggard’s residence is just opposite the Amalgamation house.
+        This house is a small one-story cottage and is one of the destinations that are worth visiting if you have a keen interest in Nigerian history.
+    </string>
+    <string name="royal_niger_boat">
+        The boat yard is located behind Lugard’s house, it is a large boat yard where merchant ships were built and repaired. 
+        There exist some old boats and canoes of all sizes in the yard which is an indication of the extensive businesses carried out in the area in the past.
+    </string>
+    <string name="slave_master_lounge">
+        The Itu River was a renowned slave trade route and the old jetty still stands. 
+        There are a number of old prison-like warehouses where slaves were kept to await shipment via the Itu River. The main lodge was the residence of the white slave merchants who occupied the area. 
+        This is a one-story house, much complex and beautifully constructed.
+    </string>
+    <string name="mbo_forest">
+        The forest Reserve is rich in wildlife, trees and indigenous plants.
+    </string>
+    <string name="specialist_hospital">
+        Ibom specialist hospital is a medical Mecca in Akwa Ibom state. It is a world class hospital and even has a higher status than most teaching hospitals in Nigeria.
+        If you are in the medical profession, then this might just be your chance to get to see medical facilities that are not existing in most Nigerian hospitals
+    </string>
+    <string name="description">DESCRIPTION</string>
+    <string name="name">Name</string>
+</resources>
