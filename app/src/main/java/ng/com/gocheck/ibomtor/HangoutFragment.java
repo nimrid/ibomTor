@@ -35,8 +35,8 @@ public class HangoutFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_list_tour,container, false);
-        RecyclerView recyclerView = view.findViewById(R.id.tour_recycler_view);
+        View view = inflater.inflate(R.layout.fragment_list,container, false);
+        RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         Adapter adapter = new Adapter(mTourList);

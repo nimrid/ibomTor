@@ -1,5 +1,6 @@
 package ng.com.gocheck.ibomtor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -48,6 +49,15 @@ public class DetailFragment extends Fragment {
 
         mDescription = view.findViewById(R.id.description);
         mDescription.setText(desc);
+
+        ImageView map = view.findViewById(R.id.mapButton);
+        map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), MapsActivity.class);
+                startActivity(intent);
+            }
+        });
 
         viewFlipper = view.findViewById(R.id.imageScroll);
         for (int i = 0; i < mImages.length; i++){

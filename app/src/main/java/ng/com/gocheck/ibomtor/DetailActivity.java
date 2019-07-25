@@ -43,6 +43,5 @@ public class DetailActivity extends AppCompatActivity {
             fm.beginTransaction().add(R.id.detail_container, fragment).commit();
         }
 
-
     }
 }

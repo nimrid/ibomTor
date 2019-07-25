@@ -31,7 +31,7 @@ public class AttractionFragment extends Fragment {
         mTourList.add(new Tour(R.string.attraction6, R.string.location4, R.string.amalgamation, R.drawable.amalgamation_house, R.drawable.amalgamation_house1, R.drawable.amalgamation_house2));
         mTourList.add(new Tour(R.string.attraction7, R.string.location8, R.string.presbyterian, R.drawable.presybterian_church, R.drawable.presybterian_church1, R.drawable.presybterian_church2));
         mTourList.add(new Tour(R.string.attraction8, R.string.location6, R.string.mbo_forest, R.drawable.mbo, R.drawable.mbo1, R.drawable.mbo));
-//        mTourList.add(new Tour(R.string.attraction9, R.string.location7, R.string.slave_master_lounge, R.drawable.mary_slessors_tomb, R.drawable.mary_slessors_tomb1, R.drawable.mary_slessors_tomb));
+        mTourList.add(new Tour(R.string.atrraction14, R.string.location5, R.string.airport, R.drawable.airport, R.drawable.airport1, R.drawable.airport3));
         mTourList.add(new Tour(R.string.attraction10, R.string.location4, R.string.slessor_house, R.drawable.mary_slessors_tomb, R.drawable.mary_slessors_tomb1, R.drawable.mary_slessors_tomb));
 //        mTourList.add(new Tour(R.string.attraction11, R.string.location4, R.string.royal_niger_boat, R.drawable.yondu,R.drawable.d3));
         mTourList.add(new Tour(R.string.attraction12, R.string.location9, R.string.Sea_port, R.drawable.ibom_deep_sea, R.drawable.ibom_deep_seaport, R.drawable.ibom_deep_seaport2));
@@ -42,8 +42,8 @@ public class AttractionFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_list_tour, container, false);
-        mRecyclerView = view.findViewById(R.id.tour_recycler_view);
+        View view = inflater.inflate(R.layout.fragment_list, container, false);
+        mRecyclerView = view.findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         Adapter adapter = new Adapter(mTourList);

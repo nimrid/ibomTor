@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="@android:color/white"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <FrameLayout android:layout_height="match_parent"

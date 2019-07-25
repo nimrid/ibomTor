@@ -35,8 +35,8 @@ public class HotelFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_list_tour, container, false);
-        mRecyclerView = view.findViewById(R.id.tour_recycler_view);
+        View view = inflater.inflate(R.layout.fragment_list, container, false);
+        mRecyclerView = view.findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         tourAdapter adapter = new tourAdapter(mTourList);

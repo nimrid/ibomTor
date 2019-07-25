@@ -26,6 +26,7 @@
     <string name="attraction11">Royal Niger Boat Yard</string>
     <string name="attraction12">Ibom Deep Sea Port</string>
     <string name="attraction13">Ibom International Worship Centre</string>
+    <string name="atrraction14">Akwa Ibom International Airport</string>
 
     <string name="Museum">House of Tara</string>
     <string name="museum1">Lord Luggard\'s Residence</string>
@@ -53,6 +54,13 @@
     <string name="location8">Uyo</string>
     <string name="location9">Eket</string>
 
+    <string name="airport">
+        Akwa Ibom Airport, is an airport serving Uyo, the capital of Akwa Ibom State in Nigeria.
+        The airport is 24 kilometres southeast of Uyo, and 16 kilometres northwest of the river port of Oron.
+        The airport has a category 9 aircraft rescue and fire fighting facility, a category II instrument landing system,
+        an air traffic control tower, a technical and administrative building, emergency operating centre, aviation fuel farm,
+        health clinic, police station, perimeter roads and fencing.
+    </string>
     <string name="le_meridien_desc">
         Situated on a hilltop with spectacular views over the rain forest
     stretching to the mountains of cameroon, Le Meridien is a 5 star hotel and resort that comes with 130 rooms, 26 suites,
@@ -193,6 +201,54 @@
         Ibom specialist hospital is a medical Mecca in Akwa Ibom state. It is a world class hospital and even has a higher status than most teaching hospitals in Nigeria.
         If you are in the medical profession, then this might just be your chance to get to see medical facilities that are not existing in most Nigerian hospitals
     </string>
+
+    <string name="fact1">
+        Akwa Ibom State was created on September 23rd 1987 due to the clamour by the upland people of Cross Rivers State.
+        The state was therefore created from Cross Rivers with capital at Uyo.
+    </string>
+    <string name="facts2">
+        Akwa Ibom State is one of the few states in Nigeria that does not operate a one city system . Most Nigerian states have just one large city which doubles as the capital.
+    </string>
+    <string name="facts3">
+         Akwa Ibom State has about 3 cities which are self sufficient and buoyant. The major cities in Akwa Ibom State are Uyo, Eket and Ikot-Ekpene.
+    </string>
+    <string name="facts4">
+        There are 3 major mutually intelligible languages spoken in Akwa Ibom State. These languages are spoken in the three distinct Senatorial Districts of the state
+        Ibibio, Oron, Ekit, Annang
+    </string>
+    <string name="facts5">
+        It is rich in the following natural Resources:  Crude oil, Salt, Iron, Coal, Gold, Clay, Limestone, Laterite and Gravel.
+    </string>
+    <string name="facts6">
+         It is the 10th largest state in Nigeria in terms of landmass and 15th in terms of population.
+    </string>
+    <string name="facts7">
+        Akwa Ibom falls within the tropical zone with a dominant vegetation of green foliage of trees and shrubs.
+        It constitutes a major chunk of the nation’s oil-palm belt.
+    </string>
+    <string name="facts8">
+        Akwa Ibom State consists of thirty-one (31) local government areas.
+    </string>
+    <string name="facts9">
+        The current region of Akwa Ibom State in old Calabar Kingdom was the first to encounter Western education in Nigeria
+        with the establishment of Hope Waddell Training Institute, at Calabar in 1895, and the Methodist Boys High School, Oron in 1905.
+    </string>
+    <string name="facts10">
+        The main economic activities of the people are fishing (for riverine and coastal dwellers), farming (mostly for upland dwellers), trading, artisanship and white-collar services.
+        A robust public sector employs significant proportion of the State labour force.
+    </string>
+    <string name="facts11">
+        Akwa Ibom State has a tropical climate marked by two distinct seasons:
+        The dry season (November – March) and The Wet season (April – October).
+    </string>
+    <!--Strings for locations-->
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
     <string name="description">DESCRIPTION</string>
     <string name="name">Name</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facts">Facts</string>
+    <string name="about">About</string>
+    <string name="location">location</string>
 </resources>
