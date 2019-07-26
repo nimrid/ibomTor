@@ -29,7 +29,7 @@ public class HangoutFragment extends Fragment {
         mTourList.add(new Tour(R.string.hangout7, R.string.location8, R.string.discovery_park, R.drawable.discovery_park,R.drawable.discovery_park1, R.drawable.discovery_park2));
 //        mTourList.add(new Tour(R.string.hangout8, R.string.location8, R.string.silver_lounge, R.drawable.silverbird_cinema_uyo,R.drawable.silverbird_cinema_uyo1));
         mTourList.add(new Tour(R.string.hangout9, R.string.location8, R.string.unity, R.drawable.unity_park, R.drawable.unity_park1, R.drawable.unity2));
-        mTourList.add(new Tour(R.string.hangout1, R.string.location2, R.string.raffia_city, R.drawable.raffia_city_plaza1, R.drawable.raffia_city_plaza1, R.drawable.raffia_city_plaza1));
+        mTourList.add(new Tour(R.string.hangout1, R.string.location2, R.string.raffia_city, R.drawable.raffia_city, R.drawable.raffia_city1, R.drawable.raffia_city_plaza1));
     }
 
     @Nullable

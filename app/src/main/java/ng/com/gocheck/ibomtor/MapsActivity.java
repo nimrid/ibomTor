@@ -340,12 +340,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-        locationManager.removeUpdates(this);
-    }
-
-    @Override
     public void onLocationChanged(Location location) {
         locationManager.removeUpdates(this);
 //        latitude = mLastKnownLocation.getLatitude();

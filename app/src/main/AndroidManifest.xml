@@ -45,7 +45,8 @@
         <activity android:name=".HangoutActivity" />
         <activity android:name=".HotelActivity" />
         <activity android:name=".MuseumActivity" />
-        <activity android:name=".FactsActivity"/>
+        <activity android:name=".FactsActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".DetailActivity"
             android:label="Details"

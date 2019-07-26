@@ -1,5 +1,6 @@
 package ng.com.gocheck.ibomtor;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -39,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.facts:
                 mActionBar.setTitle(R.string.facts);
                 fragment = new FactsFragment();
-                break;
 //                return true;
+                break;
             case R.id.about:
-                break;
-//                return true;
+//                break;
+                return true;
         }
         assert fragment != null;
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, fragment).commit();
