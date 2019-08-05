@@ -89,16 +89,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        //
-        // PASTE THE LINES BELOW THIS COMMENT
-        //
-
-        // Set up the action toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        onNavigateUp();
 
         // Set up the views
-        lstPlaces = (ListView) findViewById(R.id.listPlaces);
+        lstPlaces =findViewById(R.id.listPlaces);
 
         // Initialize the Places client
         String apiKey = getString(R.string.google_maps_key);
@@ -136,13 +132,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)){
                 new AlertDialog.Builder(this).setTitle("Access Location")
                         .setMessage("Please turn location on")
-                        .setPositiveButton("ok", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                ActivityCompat.requestPermissions(MapsActivity.this, new String[]{
-                                        Manifest.permission.ACCESS_FINE_LOCATION}, PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
-                                mLocationPermissionGranted = true;
-                            }
+                        .setPositiveButton("ok", (dialog, which) -> {
+                            ActivityCompat.requestPermissions(MapsActivity.this, new String[]{
+                                    Manifest.permission.ACCESS_FINE_LOCATION}, PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+                            mLocationPermissionGranted = true;
                         }).create().show();
             }
         }else {

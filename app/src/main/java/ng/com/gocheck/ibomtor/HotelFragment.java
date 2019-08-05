@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -46,19 +47,22 @@ public class HotelFragment extends Fragment {
 
     private class viewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView mHeader, mLocation;
+        private ImageView mImageView;
         private Tour mTour;
 
         public viewHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             mHeader = itemView.findViewById(R.id.header);
-            mLocation = itemView.findViewById(R.id.location);
+            mImageView = itemView.findViewById(R.id.scene);
+//            mLocation = itemView.findViewById(R.id.location);
         }
 
         public void bind(Tour tour){
             mTour = tour;
+            mImageView.setImageResource(tour.getImageResourceId());
             mHeader.setText(tour.getName());
-            mLocation.setText(tour.getLocation());
+//            mLocation.setText(tour.getLocation());
         }
 
         @Override
