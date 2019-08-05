@@ -15,14 +15,18 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -192,9 +196,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 null : join(" ", place.getAttributions());
                         mLikelyPlaceLatLngs[i] = place.getLatLng();
 
-                        Log.i(TAG, String.format("Place " + place.getName()
+                        Log.i(TAG, "Place " + place.getName()
                                 + " has likelihood: " + placeLikelihood.getLikelihood()
-                                + " at " + place));
+                                + " at " + place);
 
                         i++;
                         if (i > (count - 1))
@@ -312,7 +316,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     };
 //  populate the listView with names of places
     private void placelist(){
-        ArrayAdapter<String> placesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mLikelyPlaceNames);
+        ArrayAdapter<String> placesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_2, mLikelyPlaceNames);
         lstPlaces.setAdapter(placesAdapter);
         lstPlaces.setOnItemClickListener(clickListener);
     }
