@@ -5,8 +5,5 @@
         android:id="@+id/facts"
         android:title="@string/facts"
         app:showAsAction="never"/>
-    <item
-        android:id="@+id/about"
-        android:title="@string/about"
-        app:showAsAction="never"/>
+
 </menu>

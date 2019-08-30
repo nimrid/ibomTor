@@ -28,7 +28,7 @@ public class AttractionFragment extends Fragment {
         mTourList.add(new Tour(R.string.attraction2, R.string.location8, R.string.Stadium, R.drawable.akwa_stadium2, R.drawable.akwa_stadium, R.drawable.akwa_stadium1));
         mTourList.add(new Tour(R.string.attraction3, R.string.location8, R.string.e_library, R.drawable.e_library, R.drawable.e_library1, R.drawable.e_library2));
         mTourList.add(new Tour(R.string.attraction4, R.string.location8, R.string.specialist_hospital, R.drawable.specialist_hospital, R.drawable.specialist_hospital1, R.drawable.specialist_hospital3));
-        mTourList.add(new Tour(R.string.attraction5, R.string.location8, R.string.Bridge_no_return, R.drawable.bridge_of_no_return, R.drawable.bridge_of_no_return1, R.drawable.bridge_of_no_return2));
+        mTourList.add(new Tour(R.string.attraction5, R.string.location4, R.string.Bridge_no_return, R.drawable.bridge_of_no_return, R.drawable.bridge_of_no_return1, R.drawable.bridge_of_no_return2));
         mTourList.add(new Tour(R.string.attraction6, R.string.location4, R.string.amalgamation, R.drawable.amalgamation_house, R.drawable.amalgamation_house1, R.drawable.amalgamation_house2));
         mTourList.add(new Tour(R.string.attraction7, R.string.location8, R.string.presbyterian, R.drawable.presybterian_church1, R.drawable.presybterian_church, R.drawable.presybterian_church2));
         mTourList.add(new Tour(R.string.attraction8, R.string.location6, R.string.mbo_forest, R.drawable.mbo, R.drawable.mbo1, R.drawable.mbo));

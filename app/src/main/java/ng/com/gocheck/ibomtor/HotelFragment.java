@@ -24,7 +24,7 @@ public class HotelFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mTourList.add(new Tour(R.string.hotel1, R.string.location1, R.string.le_meridien_desc, R.drawable.le_meridian, R.drawable.le_meridian1, R.drawable.le_meridian2));
+        mTourList.add(new Tour(R.string.hotel1, R.string.location8, R.string.le_meridien_desc, R.drawable.le_meridian, R.drawable.le_meridian1, R.drawable.le_meridian2));
 //        mTourList.add(new Tour(R.string.hotel2, R.string.location1, R.string.monty, R.drawable.yondu,R.drawable.d3));
 //        mTourList.add(new Tour(R.string.hotel3, R.string.location8, R.string.Pinnacle, R.drawable.yondu,R.drawable.d3));
 //        mTourList.add(new Tour(R.string.hotel4, R.string.location8, R.string.Tevoli, R.drawable.yondu,R.drawable.d3));

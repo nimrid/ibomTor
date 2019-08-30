@@ -44,7 +44,6 @@
     <string name="hangout8">Silver Lounge</string>
     <string name="hangout9">Unity Park</string>
 
-    <string name="location1">Nwaniba Road, Uyo</string>
     <string name="location2">Ikot Ekpene</string>
     <string name="location3">Ibeno</string>
     <string name="location4">Ikot Abasi</string>
@@ -114,7 +113,7 @@
         Ibom Four Point Sheraton Hotel promises to be the next highest revenue generator to the state, and is presently one of the Most Attractive Tourist Centers in Akwa Ibom State.
     </string>
     <string name="amalgamation">
-        The Amalgamation House in Uyo is a one storey cottage which holds an historic importance as it was where Lord Lugard proclaimed the amalgamation of the Northern and Southern protectorates of Nigeria in 1914.
+        The Amalgamation House in ikot abasi is a one storey cottage which holds an historic importance as it was where Lord Lugard proclaimed the amalgamation of the Northern and Southern protectorates of Nigeria in 1914.
         It is an historical relic of the colonial era and a major point of interest in Uyo, Akwa Ibom State.
     </string>
     <string name="presbyterian">
@@ -251,4 +250,5 @@
     <string name="facts">Facts</string>
     <string name="about">About</string>
     <string name="location">location</string>
+    <string name="title_activity_maps2">Map</string>
 </resources>

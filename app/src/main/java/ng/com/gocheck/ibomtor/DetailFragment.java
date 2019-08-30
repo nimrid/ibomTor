@@ -16,10 +16,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
+import java.util.Objects;
+
+import static ng.com.gocheck.ibomtor.DetailActivity.*;
+
 public class DetailFragment extends Fragment {
     private TextView mName, mDescription, mLocation;
     private ViewFlipper viewFlipper;
-    private int name, location, desc;
+    private int placeName, location, desc;
     private int image1, image2, image3;
     int [] mImages = new int[3];
 
@@ -28,12 +32,16 @@ public class DetailFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
-        name = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_NAME, 0);
-        location = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_LOCATION, 1);
-        desc = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_DESCRIPTION, 2);
-        image1 = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_IMAGE, 3);
-        image2 = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_IMG, 4);
-        image3 = getActivity().getIntent().getIntExtra(DetailActivity.EXTRA_IMG2, 5);
+
+        if(getActivity().getIntent() != null){
+
+            placeName = getActivity().getIntent().getIntExtra(EXTRA_NAME, 0);
+            location = getActivity().getIntent().getIntExtra(EXTRA_LOCATION, 1);
+            desc = getActivity().getIntent().getIntExtra(EXTRA_DESCRIPTION, 2);
+            image1 = getActivity().getIntent().getIntExtra(EXTRA_IMAGE, 3);
+            image2 = getActivity().getIntent().getIntExtra(EXTRA_IMG, 4);
+            image3 = getActivity().getIntent().getIntExtra(EXTRA_IMG2, 5);
+        }
 
         mImages[0]= image1;
         mImages[1] = image2;
@@ -46,8 +54,8 @@ public class DetailFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.detail_tour, container, false);
 
-        mName = view.findViewById(R.id.actual_name);
-        mName.setText(name);
+        mName = view.findViewById(R.id.name);
+        mName.setText(placeName);
 
         mLocation = view.findViewById(R.id.actual_location);
         mLocation.setText(location);
@@ -59,16 +67,20 @@ public class DetailFragment extends Fragment {
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), MapsActivity.class);
+                Intent intent = new Intent(getContext(), MapsActivity2.class);
                 Toast.makeText(getActivity(), "Turn locator on", Toast.LENGTH_LONG).show();
                 startActivity(intent);
             }
         });
 
-        mLocation.setOnClickListener(v -> {
-            Intent intent = new Intent(getContext(), MapsActivity.class);
-            Toast.makeText(getActivity(), "Turn locator on", Toast.LENGTH_LONG).show();
-            startActivity(intent);
+        mLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), MapsActivity2.class);
+                Toast.makeText(getActivity(), "Turn locator on", Toast.LENGTH_LONG).show();
+                startActivity(intent);
+
+            }
         });
 
         viewFlipper = view.findViewById(R.id.imageScroll);
@@ -90,7 +102,7 @@ public class DetailFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.locate_icon:
-                Intent intent = new Intent(getContext(), MapsActivity.class);
+                Intent intent = new Intent(getContext(), MapsActivity2.class);
                 Toast.makeText(getActivity(), "Turn locator on", Toast.LENGTH_LONG).show();
                 startActivity(intent);
             default:
