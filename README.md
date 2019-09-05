@@ -7,6 +7,6 @@ with google maps to give the user more options based on his/her location
   <img src="https://github.com/nimrid/ibomTor/blob/master/Screenshot_20190831-100539.png" width="350" alt="accessibility text">
 </p>
 
-<p>
+<p align="center">
   <img src="https://github.com/nimrid/ibomTor/blob/master/Screenshot_20190831-101038.png" width="350">
 </p>
